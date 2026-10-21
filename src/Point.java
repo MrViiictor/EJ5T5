@@ -37,7 +37,7 @@ public class Point {
         this.y = y;
     }
 
-    public void setOffster(int offX, int offY){
+    public void setOffset(int offX, int offY){
         x = x + offX;
         y = y + offY;
         // Se puede simplificar con x += offX;
